@@ -47,6 +47,12 @@ user@system:~$
  - This script is a demo and has not been fully testes or polished.
  - Please ensure you understand what is happening before you agree to run the outputted commands on your system.
 
+## More Examples
+
+![Installing Packages in English](/images/linux-help-me-1.png)
+
+![Create a fstab entry in Natural Language](/images/linux-help-me-2.png)
+
 # Disclaimer
 ## Use at Your Own Risk
 
