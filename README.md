@@ -10,3 +10,7 @@ A simple command line tool that provides bash command responses and offers to ru
 
 ```
 cd /tmp
+git clone
+cd help-me
+sudo bash ./install.sh
+```
