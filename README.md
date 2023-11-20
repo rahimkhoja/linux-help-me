@@ -11,6 +11,6 @@ A simple command line tool that provides bash command responses and offers to ru
 ```
 cd /tmp
 git clone https://github.com/rahimkhoja/linux-help-me.git
-cd help-me
+cd linux-help-me
 sudo bash ./install.sh
 ```
