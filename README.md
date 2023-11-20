@@ -43,17 +43,17 @@ Do you want to execute this command? (yes/no): yes
 user@system:~$
 ```
 
-## Notes
-
- - Sometimes OpenAI produces invalid bash command line interface output.
- - This script is a demo and has not been fully tested or polished. Expect minor Issues!
- - Please ensure you understand what is happening before you agree to run the outputted commands on your system.
-
 ## More Examples
 
 ![Installing Packages in English](/images/linux-help-me-1.png)
 
 ![Create a fstab entry in Natural Language](/images/linux-help-me-2.png)
+
+## Notes
+
+ - Sometimes OpenAI produces invalid bash command line interface output.
+ - This script is a demo and has not been fully tested or polished. Expect minor Issues!
+ - Please ensure you understand what is happening before you agree to run the outputted commands on your system.
 
 # Disclaimer
 ## Use at Your Own Risk
