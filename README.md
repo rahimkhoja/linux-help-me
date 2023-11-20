@@ -21,7 +21,7 @@ cd linux-help-me
 sudo bash ./install.sh
 ```
 
-## Useage Instructions
+## Usage Instructions
 
 ```
 user@system:~$ help-me 'I need to know what time it is in Australia'
@@ -46,7 +46,7 @@ user@system:~$
 ## Notes
 
  - Sometimes OpenAI produces invalid bash command line interface output.
- - This script is a demo and has not been fully testes or polished.
+ - This script is a demo and has not been fully tested or polished. Expect minor Issues!
  - Please ensure you understand what is happening before you agree to run the outputted commands on your system.
 
 ## More Examples
