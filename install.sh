@@ -1,24 +1,28 @@
 #!/bin/bash
 
-# Determine the package manager (apt for Debian/Ubuntu, yum for RHEL/CentOS)
+# Prompt for OpenAI API key
+read -p "Enter your OpenAI API key: " api_key
+export OPENAI_API_KEY=$api_key
+
+# Set the API key for all users
+echo "export OPENAI_API_KEY=$api_key" | sudo tee -a /etc/profile
+
+# Detect system type and install Python3 and Git
 if command -v apt > /dev/null; then
-    PM="apt"
+    sudo apt update
+    sudo apt install -y python3 git
 elif command -v yum > /dev/null; then
-    PM="yum"
+    sudo yum install -y python3 git
 else
-    echo "Unsupported package manager"
+    echo "Unsupported package manager. Only APT and YUM are supported."
     exit 1
 fi
 
-# Install Python3 and Git using the detected package manager
-sudo $PM update
-sudo $PM install -y python3 git
+# Install Python requirements
+sudo pip install -r requirements.txt
 
-# Install Python packages from requirements.txt
-sudo pip3 install -r requirements.txt
-
-# Copy the help-me script to /usr/local/bin and make it executable
-sudo cp help-me /usr/local/bin/
+# Copy and set executable permissions for the help-me script
+sudo cp usr/local/bin/help-me /usr/local/bin/
 sudo chmod +x /usr/local/bin/help-me
 
 echo "Installation complete."
