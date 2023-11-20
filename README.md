@@ -8,6 +8,10 @@ A simple command line tool that provides bash command responses and offers to ru
 
 ## Install Instructions
 
+1. Get an OpenAI Api Key: https://platform.openai.com/api-keys
+
+2. Run the following commands on any Debian or Enterprise Linux flavors:
+
 ```
 cd /tmp
 git clone https://github.com/rahimkhoja/linux-help-me.git
