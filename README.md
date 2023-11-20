@@ -6,7 +6,7 @@ A simple command line tool that provides bash command responses and offers to ru
 ## Requirements
 
  - An Open Ai API Key. https://platform.openai.com/api-keys
- - A Linux System with sudo access 
+ - A Linux System that has python3 and git install, along with sudo access 
 
 ## Install Instructions
 
