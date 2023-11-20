@@ -36,3 +36,11 @@ Do you want to execute this command? (yes/no): yes
 4       ./.cache
 user@system:~$
 ```
+
+## Notes
+
+ - Sometimes OpenAI produces invalid bash command line interface output.
+ - This script is a demo and has not been fully testes or polished.
+ - Please ensure you understand what is happening before you agree to run the outputted commands on your system.
+
+# 
