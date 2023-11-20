@@ -14,3 +14,25 @@ git clone https://github.com/rahimkhoja/linux-help-me.git
 cd linux-help-me
 sudo bash ./install.sh
 ```
+
+## Useage Instructions
+
+```
+user@system:~$ help-me 'I need to know what time it is in Australia'
+Suggested Command: date -u -d 'TZ="Australia/Sydney"' "+%Y-%m-%d %H:%M:%S" # This command gives you the current date and time in Australia (Sydney time zone)
+Do you want to execute this command? (yes/no): yes
+2023-11-19 13:00:00
+user@system:~$
+```
+
+```
+user@system:~$ help-me 'i need to find out which directory takes up the most space from my current directory'
+Suggested Command: du -a . | sort -n -r | head -n 5 # This command will list the 5 directories in your current location that consume the most disk space.
+Do you want to execute this command? (yes/no): yes
+32      .
+4       ./.ssh
+4       ./.profile
+4       ./.lesshst
+4       ./.cache
+user@system:~$
+```
