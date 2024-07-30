@@ -64,6 +64,13 @@ No Warranty: The script is provided "as is", without warranty of any kind, expre
 
 Your Responsibility: You are fully responsible for understanding the workings and implications of the script. It is advised that you thoroughly review the code and understand its impact before execution.
 
+Assumption of Risk: By using this script, you willingly assume all risks associated with its operation. This includes, but is not limited to, the risk of system instability, data loss, or security vulnerabilities.
+
+Caution Advised: Please exercise caution and consider testing the script in a controlled environment before deploying it in a production scenario. Ensure you have adequate backups and recovery plans in place.
+
+No Liability: I shall not be held liable for any direct or indirect damages or any consequences arising from the use or misuse of this script.
+
+By using this software, you acknowledge that you have read this disclaimer, understand its terms, and agree to be bound by them. 
 
 
 ## Support
@@ -86,10 +93,3 @@ Released under the GNU General Public License v3.
 
 http://www.gnu.org/licenses/gpl-3.0.html
 
-Assumption of Risk: By using this script, you willingly assume all risks associated with its operation. This includes, but is not limited to, the risk of system instability, data loss, or security vulnerabilities.
-
-Caution Advised: Please exercise caution and consider testing the script in a controlled environment before deploying it in a production scenario. Ensure you have adequate backups and recovery plans in place.
-
-No Liability: I shall not be held liable for any direct or indirect damages or any consequences arising from the use or misuse of this script.
-
-By using this software, you acknowledge that you have read this disclaimer, understand its terms, and agree to be bound by them. 
