@@ -64,6 +64,28 @@ No Warranty: The script is provided "as is", without warranty of any kind, expre
 
 Your Responsibility: You are fully responsible for understanding the workings and implications of the script. It is advised that you thoroughly review the code and understand its impact before execution.
 
+
+
+## Support
+
+Since I am extremely lazy I am not going to offer any support. Well maybe every once-n-a while. It really depends on my mood. 
+
+That being said, time was spent documenting each command in the scripts. This should allow the scripts to be easily understood and modified if needed. 
+
+
+## Donations
+Many Bothans died getting this Linux AI Admin Helper Tool to you, honor them by sending me some Crypto. ;)
+
+ETH Mainnet: 0x1F4EABD7495E4B3D1D4F6dac07f953eCb28fD798   
+BNB Chain: 0x1F4EABD7495E4B3D1D4F6dac07f953eCb28fD798   
+
+
+
+## License
+Released under the GNU General Public License v3. 
+
+http://www.gnu.org/licenses/gpl-3.0.html
+
 Assumption of Risk: By using this script, you willingly assume all risks associated with its operation. This includes, but is not limited to, the risk of system instability, data loss, or security vulnerabilities.
 
 Caution Advised: Please exercise caution and consider testing the script in a controlled environment before deploying it in a production scenario. Ensure you have adequate backups and recovery plans in place.
